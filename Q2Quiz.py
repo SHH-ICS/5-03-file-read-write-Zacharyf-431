@@ -25,7 +25,7 @@ while True:
     if y == x:
         print("You are right! Good Job :)")
     else:
-        print("You are wrong. The correct answer was:", x)
+        print(f"You are wrong. The correct answer was: {x}")
 
 filehandle.close()
 
