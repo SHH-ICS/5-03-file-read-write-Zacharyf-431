@@ -8,6 +8,7 @@ while True:
     question = filehandle.readline().strip()
     if not question:
         break
+    #Strip line removes the extra spaces and characters from the start and end of the strip 
     a = filehandle.readline().strip()
     b = filehandle.readline().strip()
     c = filehandle.readline().strip()
@@ -22,10 +23,9 @@ while True:
 
     y = input("Enter your answer: ")
     if y == x:
-        print("You are right")
+        print("You are right! Good Job :)")
     else:
         print("You are wrong. The correct answer was:", x)
 
 filehandle.close()
 
-print("Good Job :)")

@@ -8,5 +8,7 @@ b = str(input("Please enter option b:  "))
 c = str(input("Please enter option c:  "))
 d = str(input("Please enter option d:  "))
 x = str(input("Please enter the correct answer:  "))
+#The "f" code allows for simplification of writing code, and allows for the variable to be used inside of quotations by using "{" and "}"
+#The "\n" code allows for the code to have a new line when printing 
 filehandle.write(f"{m}\n{a}\n{b}\n{c}\n{d}\n{x}\n")
 filehandle.close()
